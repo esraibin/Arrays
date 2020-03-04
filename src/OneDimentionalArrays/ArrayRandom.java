@@ -1,6 +1,7 @@
 package OneDimentionalArrays;
 
-public class ArrayRandom {// between 1000 and 5000
+public class ArrayRandom {
+    // between 1000 and 5000
 
     public static void main(String[] args) {
         createArrayWithRandom(5);

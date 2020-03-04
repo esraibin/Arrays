@@ -1,6 +1,7 @@
 package OneDimentionalArrays;
 
-public class CommonElements {// find common elements given 2 arrays with methods
+public class CommonElements {
+    // find common elements given 2 arrays with methods
 
     public static void main(String[] args) {
         findCommon();

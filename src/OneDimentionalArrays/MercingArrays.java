@@ -22,7 +22,6 @@ public class MercingArrays { //merging given two arrays with method
 
         }
         // to print (show) elements
-
         for(int i=0; i<mergedArray.length;i++){
             System.out.println(mergedArray[i]);
         }

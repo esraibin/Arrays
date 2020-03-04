@@ -2,14 +2,12 @@ package OneDimentionalArrays;
 
 public class RandomStringArray {
     public static void main(String[] args) {
-
         String[] arrayString = new String[20];
+
         for (int i = 0; i < arrayString.length; i++) {
             arrayString[i] = generateRandomWord();
-
         }
-        for (
-                String word : arrayString) {
+        for (String word : arrayString) {
             System.out.println(word);
         }
 

@@ -6,8 +6,8 @@ public class SumArray {
         int sumOfArray=0;
 
         for (int i = 0; i <Array1.length ; i++) {
-            sumOfArray+=Array1[i];// makes addition takes one item adds to current one and create new value
-
+            //takes one item adds to current one and create new value
+            sumOfArray+=Array1[i];
         }
         System.out.println(sumOfArray);
 
