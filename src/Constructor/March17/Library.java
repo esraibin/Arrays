@@ -111,5 +111,18 @@ public class Library {
         }
 
     }
+    public void returnBook(String date){
+        this.available= true;
+         String dateArr[] = date.split("/");
+         int month = Integer.parseInt(dateArr[0]);
+         int day = Integer.parseInt(dateArr[1]);
+         if((month>0 && month<13) && (day>0 && day<32)){
+             this.returnDate =date ;
+         }
+         else{
+             System.out.println("Date is wrong");
+         }
+
+    }
 
 }
